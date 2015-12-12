@@ -1,0 +1,28 @@
+
+Place the Sketches in your normal Arduino Sketches location. Install any
+required libraries:
+
+-Arduino rc_switch library
+https://code.google.com/p/rc-switch/
+
+
+RPi_utils
+From your RPi, clone this archive:
+
+git clone git://github.com/ninjablocks/433Utils.git
+
+cd 433Kit/RPi_utils
+
+(As per the original rc_switch distribution) Follow the instructions to
+install the wiringpi library. After that you can compile the example
+programs by executing `make`.
+https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install/
+
+
+
+References:
+https://github.com/ninjablocks/433Utils
+http://shop.ninjablocks.com/blogs/how-to/7506204-adding-433-to-your-raspberry-pi
+https://z4ziggy.wordpress.com/2014/06/27/rf-sniffer-open-gates-cars-and-rf-remote-controlled-devices-with-ease/
+http://npham.dk/?p=34
+http://www.princetronics.com/how-to-read-433-mhz-codes-w-raspberry-pi-433-mhz-receiver/
